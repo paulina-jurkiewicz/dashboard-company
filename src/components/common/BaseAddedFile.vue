@@ -31,6 +31,44 @@ export default {
 
 <style scoped lang="scss">
     .file {
+        margin: rem(5) 0;
+        justify-content: flex-end;
+        display: flex;
+        height: rem(51);
+
+        &:first-child {
+            @include media-smaller-up() {
+                position: absolute;
+                left: 0;
+                width: rem(126);
+                height: rem(126);
+
+                ::v-deep .lg {
+                    width: 126px;
+                    min-height: 126px;
+
+                    svg {
+                        width: rem(51);
+                        height: rem(51);
+                    }
+                }
+            }
+        }
+
+        @include media-smaller-up() {
+            justify-content: center;
+        }
+
+        @include media-large-up() {
+            flex: 0 33%;
+        }
+
+        &:nth-child(-n+3) {
+            @include media-smaller-up() {
+                margin-bottom: rem(20);
+            }
+        }
+
         &__content {
             width: 100%;
             height: 100%;

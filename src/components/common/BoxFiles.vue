@@ -85,52 +85,12 @@ export default {
                     }
 
                     @include media-medium-up() {
-                        padding-left: rem(130);
+                        padding-left: rem(140);
                     }
 
                     @include media-large-up() {
                         padding-left: rem(150);
                     }
-                }
-            }
-
-            .file {
-                margin: rem(5) 0;
-
-                &:first-child {
-                    @include media-smaller-up() {
-                        position: absolute;
-                        left: 0;
-                        width: rem(126);
-                        height: rem(126);
-
-                        ::v-deep .lg {
-                            width: 126px;
-                            min-height: 126px;
-
-                            svg {
-                                width: rem(51);
-                                height: rem(51);
-                            }
-                        }
-                    }
-                }
-            }
-
-            .file {
-                flex: 0 33%;
-                justify-content: flex-end;
-                display: flex;
-                height: rem(51);
-
-                @include media-smaller-up() {
-                    justify-content: center;
-                }
-
-                 &:nth-child(-n+3) {
-                     @include media-smaller-up() {
-                         margin-bottom: rem(20);
-                     }
                 }
             }
         }

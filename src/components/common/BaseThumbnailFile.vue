@@ -29,14 +29,6 @@ export default {
             type: String,
             default: null
         }
-    },
-    setup() {
-
-        function getImageUrl( href: string ): string {
-            return href;
-        }
-
-        return { getImageUrl }
     }
 }
 </script>
