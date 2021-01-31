@@ -38,7 +38,6 @@ export default {
             state.selected = id;
             state.isOpen = false;
 
-            console.log('dupa')
             emit( 'change-dropdown-option', id );
         }
 
