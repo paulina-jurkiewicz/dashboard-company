@@ -1,0 +1,28 @@
+@mixin media-smaller-up() {
+    @media (min-width: $xs-breakpoint) {
+        @content;
+    }
+}
+
+@mixin media-small-up() {
+    @media (min-width: $sm-breakpoint) {
+        @content;
+    }
+}
+
+@mixin media-medium-up() {
+    @media (min-width: $md-breakpoint) {
+        @content;
+    }
+}
+
+@mixin media-large-up() {
+    @media (min-width: $lg-breakpoint) {
+       @content;
+    }
+}
+
+@mixin box-shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+}

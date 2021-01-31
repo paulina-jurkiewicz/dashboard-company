@@ -1,0 +1,30 @@
+$xs-breakpoint: 600px;
+$sm-breakpoint: 1024px;
+$md-breakpoint: 1184px;
+$lg-breakpoint: 1440px;
+$xl-breakpoint: 1900px;
+
+$font-color-primary:      #1a1a1a !default;
+$main-bg-color:           #EAEDEE !default;
+$color-secondary:         #f6f7fb9c !default;
+$color-secondary-dark:    #7a8388 !default;
+$color-secondary-lighten: #ebedee !default;
+$color-secondary-darken:  #99a9b1 !default;
+$color-info:              #2b8ff4 !default;
+$color-info-lighten:      #C5D9EF !default;
+$color-info-light:        #D5E8FD !default;
+$color-success-light:     #E0F6E6 !default;
+$color-success:           #62d480 !default;
+$color-warning-light:     #FDEAD4 !default;
+$color-warning:           #f4982b !default;
+$color-extra-light:       #ECDFF9 !default;
+
+$pdf-color:               #FCD9D9 !default;
+$docx-color:              #D8E1F6 !default;
+$csv-color:               #D6E9DB !default;
+
+$border-radius-sm:        5px !default;
+$border-rounded:          50% !default;
+$border:                  1px solid $color-secondary-lighten !default;
+$border-active:           2px solid $color-info !default;
+$border-dashed:           1px dashed #ABAEAF !default;
